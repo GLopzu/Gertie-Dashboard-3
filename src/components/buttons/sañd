@@ -1,0 +1,57 @@
+      <div class="top_hotbar">
+      <app-home></app-home>
+      <app-searchbar></app-searchbar>
+      <app-unloggedprofile></app-unloggedprofile>
+  </div>
+  <div class="video_player">
+      ${randomCard.iframe}
+  </div>
+  <div class="info">
+      <div class="profile_info">
+          <img src="${randomCard.icon}">
+          <a href="" class="profile-link">
+            ${randomCard.author}
+          </a>
+      </div>
+  </div>
+      
+      </div>
+
+  </div>
+
+
+
+  <link rel="stylesheet" type="text/css" href="../../../shared/common.css">
+  <style>
+
+  
+  </style>
+      <link rel="stylesheet" type="text/css" href="../../../shared/common.css">
+      <style>
+  
+      
+      </style>
+      <div class="video_player">
+        ${randomCard.iframe}
+        </div>
+        <div class="info">
+        <div class="profile_info">
+            <img src="${randomCard.icon}">
+            <a href="" class="profile-link">
+              ${randomCard.author}
+            </a>
+        </div>
+        </div>
+  
+
+
+        <link rel="stylesheet" type="text/css" href="../shared/common.css">
+        <div class="top_hotbar">
+        <app-home></app-home>
+        <app-searchbar></app-searchbar>
+        <app-unloggedprofile></app-unloggedprofile>
+        </div>
+        <div>
+            <app-animationplayer></app-animationplayer>
+        </div>
+        `

@@ -1,0 +1,20 @@
+.home {
+    margin-bottom: 50px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle; /* Not a standard CSS property */
+}
+
+.home a {
+    display: flex;
+    align-items: center;
+}
+
+.home img {
+    padding-right: 10px;
+    width: 246px;
+    height: 56px;
+    border-radius: 10%;
+    object-fit: cover;
+}
